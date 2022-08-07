@@ -1,0 +1,18 @@
+.DocumentsList {
+	display: flex;
+	flex-direction: column;
+	grid-gap: 16px;
+
+	.DocumentsList__item {
+		padding: 4px;
+		border: 1px solid #eeeeee;
+		border-radius: 4px;
+
+		summary {
+			padding: 16px;
+			cursor: pointer;
+			border-radius: 4px;
+			background-color: #eeeeee;
+		}
+	}
+}

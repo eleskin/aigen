@@ -1,0 +1,35 @@
+.SearchBox {
+	display: flex;
+	flex-direction: column;
+	grid-gap: 16px;
+
+	.SearchBox__row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-end;
+		grid-gap: 16px;
+
+		.SearchBox__label {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+
+			strong {
+				padding-bottom: 4px;
+			}
+
+			input[type="number"] {
+				appearance: none;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+			}
+
+			input::-webkit-outer-spin-button,
+			input::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+				margin: 0;
+			}
+		}
+	}
+}
